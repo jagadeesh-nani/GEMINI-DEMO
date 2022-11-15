@@ -1,0 +1,8 @@
+Pipeline{
+	agent any
+		stages{
+			stage {
+			echo "This demo session for commit history"
+			}
+	}
+}
