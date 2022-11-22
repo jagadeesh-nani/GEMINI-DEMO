@@ -2,7 +2,10 @@ pipeline{
 	agent any{
 		stages{
 		stage (GEMINI_SCM){
-		
+		steps{
+		 git SCM : url:https://guthub.com/jagadeesh-nani/GEMINI_DEMO
+
+}
 }
 }
 
